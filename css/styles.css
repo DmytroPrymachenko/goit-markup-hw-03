@@ -91,6 +91,11 @@ body {
 }
 
 /* Шапка */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .container-header {
   display: flex;
   align-items: center;
@@ -122,6 +127,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .site-nav-adress {
@@ -165,6 +172,10 @@ body {
 .hero {
   background-color: #2e2f42;
 }
+.hero-container {
+  padding-bottom: 188px;
+  padding-top: 188px;
+}
 /* Заголовок героя */
 .hero-title {
   color: var(--logotip-text-color);
@@ -177,7 +188,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  padding: 188px 300px 24px 300px;
+  padding: 0px 300px 24px 300px;
 }
 /* Кнопка героя */
 .hero-button {
@@ -188,7 +199,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+  display: block;
   cursor: pointer;
   background-color: #4d5ae5;
 }
@@ -196,7 +207,7 @@ body {
   margin-top: 24px;
   margin-right: 480px;
   margin-left: 480px;
-  margin-bottom: 188px;
+
   min-width: 169px;
   min-height: 56px;
   border: none;
