@@ -177,7 +177,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  margin: 188px, 472px, 48px, 472px;
+  padding: 188px 300px 24px 300px;
 }
 /* Кнопка героя */
 .hero-button {
@@ -192,6 +192,16 @@ body {
   cursor: pointer;
   background-color: #4d5ae5;
 }
+.hero-button {
+  margin-top: 24px;
+  margin-right: 480px;
+  margin-left: 480px;
+  margin-bottom: 188px;
+  min-width: 169px;
+  min-height: 56px;
+  border: none;
+  border-radius: 4px;
+}
 .hero-button:focus {
   background-color: #404bbf;
 }
@@ -204,6 +214,16 @@ body {
 .advantages {
   color: var(--primary-text-color);
 }
+.advantages-container {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
 .advantages-title {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
@@ -212,6 +232,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 4px;
 }
 .advantages-link {
   color: var(--title-text-color);
@@ -222,12 +243,20 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 4px;
+  min-width: 264px;
+  min-height: 72px;
 }
 /* <!-- 2га основна секція work
        --> */
 .work {
   color: var(--primary-text-color);
 }
+.container-work {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .work-title {
   color: var(--primary-text-color);
   text-align: center;
@@ -239,16 +268,44 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.work-list {
+  display: flex;
+  gap: 24px;
+}
 /* <!-- 3тя Основна секція "Team"--> */
 .team {
   color: var(--primary-text-color);
   background-color: #f4f4fd;
 }
+.team-container {
+  padding-top: 60px;
+}
 .team-list {
   background-color: #ffffff;
+  margin-bottom: 120px;
+  display: flex;
+  gap: 24px;
 }
 .team-list-content {
   background-color: #ffffff;
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  /* рамка */
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.div-team-list-content {
+  min-width: 232px;
+  min-height: 56px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .team-title {
   color: var(--primary-text-color);
@@ -260,6 +317,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .team-title-content {
   color: var(--primary-text-color);
@@ -292,6 +351,14 @@ body {
 .footer-floor {
   background-color: #2e2f42;
 }
+.footer-container {
+  padding-top: 101.5px;
+  padding-bottom: 200px;
+  padding-left: 0px;
+  width: 280px;
+  text-align: left;
+  height: 136px;
+}
 .logo-floor {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -302,6 +369,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  padding-bottom: 17.5px;
 }
 
 .studio-floor {
