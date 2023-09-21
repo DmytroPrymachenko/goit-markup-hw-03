@@ -3,6 +3,7 @@
   --title-text-color: #434455;
   --accent-color: #4d5ae5;
   --logotip-text-color: #ffffff;
+  --button-rale: #e7e9fc;
 }
 h1,
 h2,
@@ -294,15 +295,18 @@ body {
 .team-container {
   padding: 120px 0 120px;
 }
+/* Заголовок Team*/
 .team-title {
   margin-bottom: 72px;
 }
+/* Список Team */
 .team-list {
   background-color: #ffffff;
   margin-bottom: 120px;
   display: flex;
   gap: 24px;
 }
+/* Елемент списку Team */
 .team-list-content {
   background-color: #ffffff;
   display: inline-flex;
@@ -408,6 +412,19 @@ body {
 
 /* Сторінка портфоліо
  */
+.div-portfolio {
+}
+/* Кнопки на портфоліо розташування*/
+.button-portfolio-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 96px;
+  margin-right: auto;
+  margin-bottom: 72px;
+  margin-left: 427px;
+}
+
 /* Кнопки портфоліо
  */
 .button-portfolio-accent {
@@ -422,20 +439,52 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 69px;
+  height: 48px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+
+  /* Рамка кнопки */
+
+  border-radius: 4px;
+  border: 1px solid var(--button-rale);
+  background: #f4f4fd;
+}
+/* візуал-оформлення кнопки */
+.button-portfolio-vigual {
 }
 .button-portfolio-accent:focus,
 .button-portfolio-accent:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
-/* Портфоліо контент
+/* Портфоліо список
  */
 .portfolio-list {
   list-style: none;
   background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
+/* Портфоліо елемент списку */
+.portfolio-content-unit {
+  /* Рамка  */
+  border: 1px solid var(--button-rale);
+  background: #fff;
+}
+/* Портфоліо контент елементу списку */
 .portfolio-link {
   text-decoration: none;
+}
+.portfolio-text-content {
+  margin-top: 32px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  margin-left: 16px;
 }
 /* Заголовок */
 .portfolio-title {
@@ -447,6 +496,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 /* Контент текст */
 .portfolio-content {
