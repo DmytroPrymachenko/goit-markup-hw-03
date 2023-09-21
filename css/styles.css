@@ -422,7 +422,8 @@ body {
   margin-top: 96px;
   margin-right: auto;
   margin-bottom: 72px;
-  margin-left: 427px;
+
+  justify-content: center;
 }
 
 /* Кнопки портфоліо
