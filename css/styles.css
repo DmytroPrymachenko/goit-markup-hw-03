@@ -177,6 +177,8 @@ body {
   padding: 188px 0 188px;
 }
 .hero-container {
+  display: flex;
+  flex-direction: column;
 }
 /* Заголовок героя */
 .hero-title {
@@ -190,9 +192,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  padding: 0px 300px 24px 300px;
+  padding-bottom: 24px;
   /* ПИТАННЯ- без max-width воно відображається коректно, а з ним ні */
   max-width: 496px;
+  display: flex;
+  flex-direction: column;
 }
 /* Кнопка героя */
 .hero-button {
@@ -318,7 +322,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+
   /* рамка */
   border-radius: 0px 0px 4px 4px;
   background: #fff;
@@ -427,7 +431,7 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-top: 96px;
+
   margin-right: auto;
   margin-bottom: 72px;
 
