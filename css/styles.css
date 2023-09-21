@@ -414,6 +414,10 @@ body {
  */
 .div-portfolio {
 }
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 /* Кнопки на портфоліо розташування*/
 .button-portfolio-list {
   display: flex;
