@@ -234,6 +234,9 @@ body {
   display: flex;
   gap: 24px;
 }
+.advantages-list-content {
+  width: calc(100% - 72px);
+}
 
 .advantages-title {
   color: var(--primary-text-color);
