@@ -266,9 +266,9 @@ body {
        --> */
 .work {
   color: var(--primary-text-color);
+  padding-bottom: 120px;
 }
 .container-work {
-  padding-bottom: 120px;
 }
 
 .work-title {
