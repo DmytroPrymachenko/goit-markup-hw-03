@@ -485,17 +485,13 @@ body {
   border: 1px solid #e7e9fc;
 
   background: #fff;
-  padding: 32px 16px;
 }
 /* Портфоліо контент елементу списку */
 .portfolio-link {
   text-decoration: none;
 }
 .portfolio-text-content {
-  margin-top: 32px;
-  margin-right: 16px;
-  margin-bottom: 32px;
-  margin-left: 16px;
+  padding: 32px 16px;
 }
 /* Заголовок */
 .portfolio-title {
