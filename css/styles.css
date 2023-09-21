@@ -40,8 +40,8 @@ img {
   margin: 0 auto;
   width: 1158px;
 
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .visually-hidden {
@@ -173,8 +173,8 @@ body {
   background-color: #2e2f42;
 }
 .hero-container {
-  padding-bottom: 188px;
   padding-top: 188px;
+  padding-bottom: 188px;
 }
 /* Заголовок героя */
 .hero-title {
@@ -189,6 +189,8 @@ body {
   letter-spacing: 0.02em;
 
   padding: 0px 300px 24px 300px;
+  /* ПИТАННЯ- без max-width воно відображається коректно, а з ним ні */
+  max-width: 496px;
 }
 /* Кнопка героя */
 .hero-button {
