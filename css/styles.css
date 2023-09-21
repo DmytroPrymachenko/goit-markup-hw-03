@@ -460,6 +460,7 @@ body {
 .button-portfolio-accent:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 /* Портфоліо список
  */
