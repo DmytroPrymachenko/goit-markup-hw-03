@@ -27,6 +27,8 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .list {
   list-style: none;
@@ -319,7 +321,7 @@ body {
   gap: 32px;
   /* рамка */
   border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
+  background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -477,10 +479,10 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 /* Портфоліо елемент списку */
 .portfolio-content-unit {
+  width: calc((100% - 48px) / 3);
   /* Рамка  */
   border: 1px solid #e7e9fc;
 
