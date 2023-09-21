@@ -306,7 +306,7 @@ body {
 }
 /* Список Team */
 .team-list {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
   margin-bottom: 120px;
   display: flex;
   gap: 24px;
