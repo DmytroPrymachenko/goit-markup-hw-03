@@ -482,8 +482,10 @@ body {
 /* Портфоліо елемент списку */
 .portfolio-content-unit {
   /* Рамка  */
-  border: 1px solid var(--button-rale);
+  border: 1px solid #e7e9fc;
+
   background: #fff;
+  padding: 32px 16px;
 }
 /* Портфоліо контент елементу списку */
 .portfolio-link {
