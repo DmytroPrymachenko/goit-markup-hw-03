@@ -226,9 +226,11 @@ body {
       --> */
 .advantages {
   color: var(--primary-text-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .advantages-container {
-  padding: 120px 0 120px;
 }
 
 .advantages-list {
