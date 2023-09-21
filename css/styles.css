@@ -227,8 +227,7 @@ body {
   color: var(--primary-text-color);
 }
 .advantages-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
 }
 
 .advantages-list {
@@ -278,6 +277,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .work-list {
   display: flex;
@@ -289,6 +289,10 @@ body {
   background-color: #f4f4fd;
 }
 .team-container {
+  padding: 120px 0 120px;
+}
+.team-title {
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #ffffff;
@@ -314,8 +318,8 @@ body {
 .div-team-list-content {
   min-width: 232px;
   min-height: 56px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+
+  padding: 32px 0 32px;
 }
 .team-title {
   color: var(--primary-text-color);
