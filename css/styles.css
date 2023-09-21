@@ -172,9 +172,9 @@ body {
 Секція герой */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
 .hero-container {
-  padding: 188px 0 188px;
 }
 /* Заголовок героя */
 .hero-title {
